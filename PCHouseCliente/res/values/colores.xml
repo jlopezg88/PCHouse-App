@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="defecto">#40938C</color>
+     <color name="pulsado">#93EECC</color>
+     <color name="sin">#DDFBF0</color>
+</resources>

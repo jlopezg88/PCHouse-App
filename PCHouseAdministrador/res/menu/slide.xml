@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_one"
+        android:icon="@drawable/consultoria"
+        android:title="@string/clientes">
+    </item>
+    <item
+        android:id="@+id/item_two"
+        android:icon="@drawable/servicios"
+        android:title="@string/categorias">
+    </item>
+    <item
+        android:id="@+id/item_three"
+        android:icon="@drawable/perifericos"
+        android:title="@string/productos">
+    </item>
+    <item
+        android:id="@+id/item_four"
+        android:icon="@drawable/carrito_menu"
+        android:title="@string/pedidos">
+    </item>
+    <item
+        android:id="@+id/item_five"
+        android:icon="@drawable/oferta"
+        android:title="@string/oferta">
+    </item>
+    <item
+        android:id="@+id/item_six"
+        android:icon="@drawable/sugerencia"
+        android:title="@string/sugerencia">
+    </item>
+
+</menu>

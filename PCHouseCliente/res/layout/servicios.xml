@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <TextView
+        android:id="@+id/tituloServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/servicios"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#2B605B" />
+
+    <Button
+        android:id="@+id/buttonConsultoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloServicios"
+        android:layout_marginTop="86dp"
+        android:layout_toLeftOf="@+id/tituloServicios"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/consultoria"
+        android:text="@string/consultoria"
+        android:textColor="#40938C" />
+
+    <Button
+        android:id="@+id/buttonDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonConsultoria"
+        android:layout_alignBottom="@+id/buttonConsultoria"
+        android:layout_toRightOf="@+id/tituloServicios"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/direccion"
+        android:text="@string/direccion"
+        android:textColor="#40938C"/>
+
+    <Button
+        android:id="@+id/buttonQuienesSomos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonConsultoria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/quienes_somos"
+        android:text="@string/quienesSomos"
+        android:textColor="#40938C" />
+
+</RelativeLayout>

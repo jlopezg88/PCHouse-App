@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DDFBF0">
+
+     <EditText
+         android:id="@+id/editPrecio"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editTitulo"
+         android:layout_below="@+id/editTitulo"
+         android:layout_marginTop="42dp"
+         android:ems="10"
+         android:hint="@string/descripcion"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <EditText
+         android:id="@+id/editTitulo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="90dp"
+         android:ems="10"
+         android:hint="@string/titulo"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <TextView
+         android:id="@+id/tituloOferta"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="28dp"
+         android:text="@string/oferta"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#2B605B" />
+
+</RelativeLayout>

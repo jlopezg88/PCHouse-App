@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <TextView
+        android:id="@+id/tituloDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/descricionCliente"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/tituloNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tituloDescripcion"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/nombreCli"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/tituloApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloNombre"
+        android:layout_below="@+id/tituloNombre"
+        android:layout_marginTop="14dp"
+        android:text="@string/apellidos"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/tituloDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloApellidos"
+        android:layout_below="@+id/tituloApellidos"
+        android:layout_marginTop="14dp"
+        android:text="@string/direccion"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/tituloCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloDireccion"
+        android:layout_below="@+id/tituloDireccion"
+        android:layout_marginTop="14dp"
+        android:text="@string/correo"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/tituloTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloCorreo"
+        android:layout_below="@+id/tituloCorreo"
+        android:layout_marginTop="16dp"
+        android:text="@string/telefono"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tituloDireccion"
+        android:layout_alignLeft="@+id/nombre"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tituloApellidos"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/tituloDireccion"
+        android:textColor="#40938C"/>
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tituloDireccion"
+        android:layout_alignLeft="@+id/apellidos"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tituloCorreo"
+        android:layout_alignLeft="@+id/direccion"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tituloTelefono"
+        android:layout_alignLeft="@+id/correo"
+        android:textColor="#40938C" />
+
+</RelativeLayout>

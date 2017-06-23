@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PC House</string>
+    <string name="action_settings">Opciones</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tituloLogin">Login</string>
+    <string name="hintUsuario">Usuario</string>
+    <string name="hintPass">Contraseña</string>
+    <string name="botonEntrar">Entrar</string>
+    <string name="botonRegistrarse">Registrarse</string>
+    <string name="catalogo">Catalogo</string>
+    <string name="carrito">Carrito</string>
+    <string name="servicios">Servicios</string>
+    <string name="misCompras">Mis Compras</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="direccion">Dirección</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Telefono</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="buscar">Buscar:</string>
+    <string name="componentes">Componentes</string>
+    <string name="monitores">Monitores</string>
+    <string name="accesorios">Accesorios</string>
+    <string name="portatiles">Portátiles</string>
+    <string name="perifericos">Periféricos</string>
+    <string name="tablets">Tablets</string>
+    <string name="compraActual">Total compra actual:</string>
+    <string name="numTarjeta">Nº Tarjeta</string>
+    <string name="ccv">CCV</string>
+    <string name="comprar">Comprar</string>
+    <string name="consultoria">Consultoria</string>
+    <string name="direcLocal">Dirección: Av. República Argentina</string>
+    <string name="telefonoLocal">Telefono: 954 629208</string>
+    <string name="fax">Fax: 954 629208</string>
+    <string name="movil">Móvil: 679 850394</string>
+    <string name="email">Email: comercial@pchouse.es</string>
+    <string name="web">Web: www.pchouse.es</string>
+    <string name="tipoTarjeta">Tipo Tarjeta:</string>
+    <string name="asunto">Asunto</string>
+    <string name="texto">Texto</string>
+    <string name="tipo">Tipo:</string>
+    <string name="quienesSomos">¿Quienes somos?</string>
+    <string name="descripcion">Descripción</string>
+    <string name="empresa">Somos una empresa joven que acabamos de abrir una nueva forma de mercado y nos hemos propuesto innovar</string>
+    <string name="totalCompras">Total gastado:</string>
+    <string name="guardar">Guardar</string>
+    <string-array name="componentes">
+        <item >Lector DVD</item>
+        <item >Placa base</item>
+        <item >Tarjeta de sonido</item>
+        <item >Tarjeta grafica</item>
+        <item >Memoria RAM</item>
+        <item >Disco duro</item>
+        <item >Fuente de alimentación</item>
+    </string-array>
+    <string name="add">Añadir al Carrito</string>
+    <string-array name="monitores">
+        <item >PHILIPS</item>
+        <item >BENQ</item>
+        <item >SAMSUNG</item>
+        <item >LG</item>
+        <item >SONY</item>
+        <item >TOSHIBA</item>
+        <item >Acer</item>
+        <item >HP</item>
+    </string-array>
+    <string-array name="accesorios">
+        <item >Cargador portatiles</item>
+        <item >Funda portatiles</item>
+        <item >Bateria portatiles</item>
+    </string-array>
+    <string-array name="portatiles">
+        <item >HP</item>
+        <item >TOSHIBA</item>
+        <item >ASUS</item>
+        <item >Lenovo</item>
+        <item >SAMSUNG</item>
+        <item >Acer</item>
+        <item >Sony VAIO</item>
+        <item >COMPAQ</item>
+        <item >Packard Bell</item>
+    </string-array>
+    <string-array name="perifericos">
+        <item >Escaneres</item>
+        <item >WebCams</item>
+        <item >Impresoras</item>
+        <item >Memorias USB</item>
+        <item >Auriculares</item>
+        <item >Microfonos</item>
+        <item >Teclados</item>
+        <item >Ratones</item>
+        <item >Altavoces</item>
+    </string-array>
+    <string-array name="tablets">
+        <item >Acer</item>
+        <item >SAMSUNG</item>
+        <item >Motorola XOOM</item>
+        <item >BlackBerry</item>
+        <item >Nexus</item>
+        <item >HTC</item>
+    </string-array>
+    <string-array name="pago">
+        <item >VISA</item>
+        <item >VISA ELECTRON</item>
+        <item >MASTERCARD</item>
+    </string-array>
+    <string name="eliminar">Eliminar</string>
+    <string-array name="consultoria">
+        <item >Sugerencia</item>
+        <item >Queja</item>
+    </string-array>
+ <string name="pagado">Pagado</string>
+    <string name="addCarrito">Añadido al carrito</string>
+    <string name="enviado">Enviado</string>
+    <string name="eliminado">Eliminado</string>
+	<string name="campoVacio">Debe de rellenar todos los campos</string>
+	<string name="usuarioPref">Usuario</string>
+	<string name="seguroEliminar">¿Está seguro de eliminarlo?</string>
+	<string name="comprobarLogin">El usuario o contraseña no es válida</string>
+	<string name="correoNoValido">El correo introducido ya existe, por favor cambielo</string>
+	<string name="registrado">Registrado</string>
+	<string name="advertencia">Advertencia</string>
+	<string name="continuar">Continuar</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

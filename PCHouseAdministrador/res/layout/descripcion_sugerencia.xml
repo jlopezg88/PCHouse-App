@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <TextView
+        android:id="@+id/tituloDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/descricionSugerencia"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#2B605B" />
+
+    <TextView
+        android:id="@+id/tiTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tiTipo"
+        android:layout_below="@+id/tiTipo"
+        android:layout_marginTop="16dp"
+        android:text="@string/tituloSuge" 
+        android:textColor="#2B605B"/>
+
+    <TextView
+        android:id="@+id/tiMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tiTitulo"
+        android:layout_below="@+id/tiTitulo"
+        android:layout_marginTop="16dp"
+        android:text="@string/mensajeSuge" 
+        android:textColor="#2B605B"/>
+
+    <TextView
+        android:id="@+id/mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tiMensaje"
+        android:layout_alignBottom="@+id/tiMensaje"
+        android:layout_alignLeft="@+id/titulosu"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tiTipo"
+        android:layout_alignBottom="@+id/tiTipo"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/tiMensaje"
+        android:textColor="#40938C"  />
+
+    <TextView
+        android:id="@+id/titulosu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tiMensaje"
+        android:layout_alignLeft="@+id/tipo"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/tiTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tituloDescripcion"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/tipoSuge"
+        android:textColor="#2B605B" 
+        />
+
+</RelativeLayout>

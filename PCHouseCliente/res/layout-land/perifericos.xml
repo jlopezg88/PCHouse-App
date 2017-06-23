@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <Spinner
+        android:id="@+id/spinnerPerifericos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textPerifericos"
+        android:layout_marginTop="33dp" />
+
+    <ListView
+        android:id="@+id/listViewPerifericos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinnerPerifericos" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textPerifericos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/perifericos"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#2B605B"/>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DDFBF0">
+
+     <TextView
+         android:id="@+id/tituloEditar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="26dp"
+         android:text="@string/editar"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#2B605B" />
+
+     <EditText
+         android:id="@+id/editNombre"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tituloEditar"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="32dp"
+         android:ems="10"
+         android:hint="@string/nombre"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" >
+
+         <requestFocus />
+     </EditText>
+
+     <Spinner
+         android:id="@+id/spinnerEditar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editPrecio"
+         android:layout_alignRight="@+id/editPrecio"
+         android:layout_below="@+id/editPrecio"
+         android:layout_marginTop="32dp" />
+
+     <EditText
+         android:id="@+id/editPrecio"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editNombre"
+         android:layout_below="@+id/editNombre"
+         android:layout_marginTop="27dp"
+         android:ems="10"
+         android:hint="@string/precio"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <Spinner
+         android:id="@+id/spinnerTipo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/spinnerEditar"
+         android:layout_alignRight="@+id/spinnerEditar"
+         android:layout_below="@+id/spinnerEditar"
+         android:layout_marginTop="18dp" />
+
+</RelativeLayout>

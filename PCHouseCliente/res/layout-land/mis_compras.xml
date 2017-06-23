@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DDFBF0">
+
+    <TextView
+        android:id="@+id/tituloMisCompras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/misCompras"
+        android:textColor="#2B605B"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/texttotalCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tituloMisCompras"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/totalCompras"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/textResultadoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/texttotalCompra"
+        android:layout_toRightOf="@+id/texttotalCompra"
+        android:textColor="#40938C"/>
+
+    <ListView
+        android:id="@+id/listViewMisCompras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/texttotalCompra" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textResultadoTotal"
+        android:layout_alignBottom="@+id/textResultadoTotal"
+        android:layout_toRightOf="@+id/textResultadoTotal"
+        android:text="€"
+        android:textColor="#40938C" />
+
+</RelativeLayout>

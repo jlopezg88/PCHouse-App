@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0"  >
+
+    <Spinner
+        android:id="@+id/spinnerPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editTarjeta"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/tarjeta" />
+
+    <EditText
+        android:id="@+id/editTarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerPago"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/numTarjeta"
+        android:textColor="#2B605B"
+        android:textColorHint="#40938C"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editCcv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTarjeta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:hint="@string/ccv"
+        android:textColor="#2B605B"
+        android:textColorHint="#40938C"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCcv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/comprar"
+        android:textColor="@android:color/white"
+        android:background="@drawable/boton_pulsado"
+        android:drawableRight="@drawable/pagar" />
+
+    <TextView
+        android:id="@+id/tarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinnerPago"
+        android:layout_alignLeft="@+id/editTarjeta"
+        android:text="@string/tipoTarjeta"
+        android:textColor="#40938C" />
+
+</RelativeLayout>

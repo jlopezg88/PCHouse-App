@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <TextView
+        android:id="@+id/tituloCatalogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/catalogo"
+        android:textColor="#2B605B"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonComponentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tituloCatalogo"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/componentes"
+        android:text="@string/componentes"
+        android:textColor="#40938C" />
+
+    <Button
+        android:id="@+id/buttonPortatiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMonitores"
+        android:layout_below="@+id/buttonMonitores"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/portatil"
+        android:text="@string/portatiles"
+        android:textColor="#40938C" />
+
+    <Button
+        android:id="@+id/buttonAccesorios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonComponentes"
+        android:layout_alignTop="@+id/buttonPortatiles"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/accesorios"
+        android:text="@string/accesorios"
+        android:textColor="#40938C" />
+
+    <Button
+        android:id="@+id/buttonMonitores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonComponentes"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/monitor"
+        android:text="@string/monitores"
+        android:textColor="#40938C" />
+
+    <Button
+        android:id="@+id/buttonTablets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloCatalogo"
+        android:layout_alignTop="@+id/buttonPortatiles"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/tablet"
+        android:text="@string/tablets"
+        android:textColor="#40938C" />
+
+    <Button
+        android:id="@+id/buttonPerifericos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonComponentes"
+        android:layout_alignBottom="@+id/buttonComponentes"
+        android:layout_alignLeft="@+id/buttonTablets"
+        android:background="@drawable/boton_imagen"
+        android:drawableTop="@drawable/perifericos"
+        android:text="@string/perifericos"
+        android:textColor="#40938C" />
+
+</RelativeLayout>

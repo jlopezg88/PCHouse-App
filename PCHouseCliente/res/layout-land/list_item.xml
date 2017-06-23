@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="34dp"
+        android:layout_toLeftOf="@+id/precio"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/titulo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#40938C" />
+
+    <TextView
+        android:id="@+id/euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/precio"
+        android:layout_alignBottom="@+id/precio"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:text="€"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#40938C" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DDFBF0">
+    
+ <TextView
+        android:id="@+id/tituloLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/tituloLogin"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#2B605B"/>
+
+    <EditText
+        android:id="@+id/loginPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/hintPass"
+        android:textColor="#2B605B"
+        android:textColorHint="#40938C" 
+        android:inputType="textPassword">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/loginUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loginPass"
+        android:layout_below="@+id/tituloLogin"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="@string/hintUsuario"
+        android:textColor="#2B605B"
+        android:textColorHint="#40938C" />
+
+    <Button
+        android:id="@+id/buttonLoginRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonLoginEntrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/boton_pulsado"
+        android:text="@string/botonRegistrarse"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonLoginEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/boton_pulsado"
+        android:text="@string/botonEntrar"
+        android:textColor="@android:color/white" />
+    
+</RelativeLayout>

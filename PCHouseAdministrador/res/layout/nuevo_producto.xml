@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DDFBF0">
+
+     <TextView
+         android:id="@+id/tituloNuevo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="26dp"
+         android:text="@string/nuevoProducto"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#2B605B" />
+
+     <EditText
+         android:id="@+id/editNombreNuevo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tituloNuevo"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp"
+         android:ems="10"
+         android:hint="@string/nombre"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" >
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/editPrecioNuevo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editNombreNuevo"
+         android:layout_below="@+id/editNombreNuevo"
+         android:layout_marginTop="30dp"
+         android:ems="10"
+         android:hint="@string/precio"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <Spinner
+         android:id="@+id/spinnerTipoNuevo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/spinnerNuevo"
+         android:layout_alignRight="@+id/spinnerNuevo"
+         android:layout_below="@+id/spinnerNuevo"
+         android:layout_marginTop="24dp" />
+
+     <Spinner
+         android:id="@+id/spinnerNuevo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editPrecioNuevo"
+         android:layout_alignRight="@+id/editPrecioNuevo"
+         android:layout_below="@+id/editPrecioNuevo"
+         android:layout_marginTop="28dp" />
+
+</RelativeLayout>

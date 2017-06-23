@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFBF0" >
+
+    <TextView
+        android:id="@+id/tituloConsultoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/consultoria"
+        android:textColor="#2B605B"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tituloConsultoria"
+        android:layout_below="@+id/tituloConsultoria"
+        android:layout_marginTop="41dp"
+        android:text="@string/tipo" 
+        android:textColor="#40938C"/>
+
+    <Spinner
+        android:id="@+id/spinnerConsultoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloConsultoria"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/tipo" />
+
+    <EditText
+        android:id="@+id/editMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editAsunto"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="@string/texto"
+        android:textColor="#2B605B"
+        android:textColorHint="#40938C" />
+
+    <EditText
+        android:id="@+id/editAsunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tipo"
+        android:layout_below="@+id/spinnerConsultoria"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/asunto"
+        android:textColor="#2B605B"
+        android:textColorHint="#40938C" />
+
+</RelativeLayout>

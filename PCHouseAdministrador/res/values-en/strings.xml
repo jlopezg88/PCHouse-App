@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PcHouseAdministrador</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tituloLogin">Login</string>
+    <string name="hintUsuario">User</string>
+    <string name="hintPass">Password</string>
+    <string name="botonEntrar">Enter</string>
+    <string name="categorias">Categories</string>
+    <string name="pedidos">Order</string>
+    <string name="clientes">Clients</string>
+    <string name="editar">Edit</string>
+    <string name="precio">Price</string>
+    <string name="descripcion">Description</string>
+    <string name="nombre">Name</string>
+    <string name="oferta">Bid</string>
+    <string name="titulo">Title</string>
+    <string name="productos">Products</string>
+    <string name="enviar">Send</string>
+    <string-array name="categorias">
+        <item >Monitors</item>
+        <item >Accessories</item>
+        <item >Peripherals</item>
+        <item >Components</item>
+        <item >Tablets</item>
+        <item >Laptops</item>
+    </string-array>
+     <string name="eliminar">Delete</string>
+     <string name="eliminado">Deleted</string>
+     <string name="editado">Edited</string>
+     <string name="ofertaEnviada">Submitted on Bid</string>
+     <string name="apellidos">Surnames:</string>
+     <string name="direccion">Direction:</string>
+     <string name="correo">Email:</string>
+     <string name="telefono">Telephone:</string>
+     <string name="nombreCli">Name:</string>
+     <string name="sugerencia">Suggestion</string>
+     <string name="campoVacio">You must fill in all fields</string>
+     <string name="tituloSuge">Title:</string>
+     <string name="tipoSuge">Type:</string>
+     <string name="mensajeSuge">Menssage:</string>
+     <string name="descricionCliente">Description Client</string>
+     <string name="descricionSugerencia">Description Suggestion</string>
+     <string name="usuarioPref">User</string>
+     <string-array name="sugerencias">
+         <item >Suggestion</item>
+         <item >Complaint</item>
+     </string-array>
+     <string name="mostrar">Show details</string>
+     <string-array name="monitores">
+        <item >PHILIPS</item>
+        <item >BENQ</item>
+        <item >SAMSUNG</item>
+        <item >LG</item>
+        <item >SONY</item>
+        <item >TOSHIBA</item>
+        <item >Acer</item>
+        <item >HP</item>
+    </string-array>
+    <string-array name="componentes">
+        <item >Lector DVD</item>
+        <item >Placa base</item>
+        <item >Tarjeta de sonido</item>
+        <item >Tarjeta grafica</item>
+        <item >Memoria RAM</item>
+        <item >Disco duro</item>
+        <item >Fuente de alimentación</item>
+    </string-array>
+     <string-array name="accesorios">
+        <item >Cargador portatiles</item>
+        <item >Funda portatiles</item>
+        <item >Bateria portatiles</item>
+    </string-array>
+    <string-array name="portatiles">
+        <item >HP</item>
+        <item >TOSHIBA</item>
+        <item >ASUS</item>
+        <item >Lenovo</item>
+        <item >SAMSUNG</item>
+        <item >Acer</item>
+        <item >Sony VAIO</item>
+        <item >COMPAQ</item>
+        <item >Packard Bell</item>
+    </string-array>
+    <string-array name="perifericos">
+        <item >Escaneres</item>
+        <item >WebCams</item>
+        <item >Impresoras</item>
+        <item >Memorias USB</item>
+        <item >Auriculares</item>
+        <item >Microfonos</item>
+        <item >Teclados</item>
+        <item >Ratones</item>
+        <item >Altavoces</item>
+    </string-array>
+    <string-array name="tablets">
+        <item >Acer</item>
+        <item >SAMSUNG</item>
+        <item >Motorola XOOM</item>
+        <item >BlackBerry</item>
+        <item >Nexus</item>
+        <item >HTC</item>
+    </string-array>  
+    <string name="seguroEliminar">Are you sure you detele it?</string>
+    <string name="comprobarLogin"> The user or password is invalid</string>
+    <string name="nuevoProducto">New product</string>
+    <string name="add">Add</string>
+    <string name="creado">Product created</string>
+    <string name="comprobarProduct">The product already exists</string>
+    <string name="advertencia">Warning</string>
+    <string name="continuar">Continue</string>
+    <string name="cancelar">Cancel</string>
+</resources>

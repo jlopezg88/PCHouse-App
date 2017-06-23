@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#DDFBF0">
+
+     <TextView
+         android:id="@+id/tituloRegistrarse"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="26dp"
+         android:text="@string/registrarse"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#2B605B" />
+
+     <EditText
+         android:id="@+id/editDireccion"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editApellidos"
+         android:layout_below="@+id/editApellidos"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:hint="@string/direccion"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <EditText
+         android:id="@+id/editApellidos"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editNombre"
+         android:layout_below="@+id/editNombre"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:hint="@string/apellidos"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <EditText
+         android:id="@+id/editCorreo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editDireccion"
+         android:layout_below="@+id/editDireccion"
+         android:layout_marginTop="23dp"
+         android:ems="10"
+         android:hint="@string/correo"
+         android:inputType="textEmailAddress"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+     <EditText
+         android:id="@+id/editTelefono"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editCorreo"
+         android:layout_below="@+id/editCorreo"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:inputType="number"
+         android:hint="@string/telefono"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C"  />
+
+     <EditText
+         android:id="@+id/editpass"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/editTelefono"
+         android:layout_below="@+id/editTelefono"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:hint="@string/hintPass"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C"  />
+
+     <EditText
+         android:id="@+id/editNombre"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/tituloRegistrarse"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="22dp"
+         android:ems="10"
+         android:hint="@string/nombre"
+         android:textColor="#2B605B"
+         android:textColorHint="#40938C" />
+
+</RelativeLayout>
